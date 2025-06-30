@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Directors - Mines & Geology</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+    <link href="./css/gov.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #f8f0ff, #f2e2ff);
+            color: #333;
+        }
+
+        h3 {
+            text-align: center;
+            color: #7b1fa2 !important;
+            
+            margin: 2rem 0;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+
+<body>
+     <div class="fullbody">
+    <div class="top-header-wrapper">
+        <div class="container common-container top-header">
+            <div class="common-left clearfix">
+                <ul>
+                    <li class="gov-india">
+                        <span class="responsive_go_hindi" lang="hi">
+                            <a target="_blank" href="https://www.telangana.gov.in/" title="తెలంగాణ ప్రభుత్వం"
+                                role="link">తెలంగాణ ప్రభుత్వం</a>
+                        </span>
+                    </li>
+                    <li class="ministry">
+                        <span class="li_eng responsive_go_eng">
+                            <a target="_blank" href="https://www.telangana.gov.in/" title="Government of Telangana"
+                                role="link">Government of Telangana</a>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="common-right clearfix">
+                <ul id="header-nav">
+                    <li><a href="#skipCont" title="">Skip to main content</a></li>
+
+                    <li class="font-control">
+                        <a href="javascript:void(0);" onclick="set_font_size('increase')"
+                            title="Increase font size">A<sup>+</sup></a> |
+                        <a href="javascript:void(0);" onclick="set_font_size()" title="Reset font size">A</a> |
+                        <a href="javascript:void(0);" onclick="set_font_size('decrease')"
+                            title="Decrease font size">A<sup>-</sup></a>
+                    </li>
+
+                    <li class="border">
+                        <a href="https://facebook.com" class="text-primary" target="_blank" title="Facebook">
+                            <i class="fab fa-facebook fa-lg"></i>
+                        </a>
+                        <a href="https://twitter.com" class="text-info ms-2" target="_blank" title="Twitter">
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </a>
+                        <a href="https://youtube.com" class="text-danger ms-2" target="_blank" title="YouTube">
+                            <i class="fab fa-youtube fa-lg"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-7 col-md-9 col-sm-12 d-flex align-items-center ">
+                <img src="./Images/Telanganlogo.png" alt="Logo 1" height="90" width="90" class="me-3">
+                <div>
+                    <h1 class="Departmentheader m-0">DEPARTMENT OF MINES & GEOLOGY</h1>
+                    <h3 class="Departmentheader m-0">GOVERNMENT OF TELANGANA</h3>
+                </div>
+            </div>
+
+            <div class=" col-lg-1 col-md-1 col-sm-12 m-1 d-flex align-items-center">
+                <img src="./Images/TelanganaRaising.jpg" alt="Logo 2" height="90px" width="90px"  style="border-radius: 24px;">
+            </div>
+             <div class="col-lg-2 col-md-2 col-sm-12 m-1 d-flex flex-column align-items-start ">
+  <div class="mt-2 resizefont">
+    <i class="fas fa-phone"></i> : 040 - 23221766
+  </div>
+  <div class="ml-2 resizefont">
+    <i class="fas fa-envelope"></i> : dir-mines[at]telangana[dot]gov[dot]in
+  </div>
+</div>
+
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom shadow-sm">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="govpurple.html">Home</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#govNavbar" aria-controls="govNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="govNavbar">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+ 
+        <li class="nav-item">
+          <!-- <a class="nav-link active" href="#">Aboutus</a> -->
+          <li class="nav-item">
+  <a class="nav-link active" href="#" onclick="loadPage('greenhome.html')">About Us</a>
+</li>
+
+        </li>
+
+        
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Mineral</a>
+        </li> 
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About Us
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+            <!-- <li><a class="dropdown-item" href="#">Vision & Mission</a></li> -->
+             <li><a class="dropdown-item" href="#" onclick="loadPage('regionalOffices.html')">Vision & Mission</a></li>
+
+
+            <li><a class="dropdown-item" href="#">History</a></li>
+            <li><a class="dropdown-item" href="#">Leadership</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Services
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="#" onclick="loadPage('test.html')">Test</a></li>
+            <li><a class="dropdown-item" href="#" onclick="loadPage('assistantDirectoOffices.html')">re</a></li>
+            <li><a class="dropdown-item" href="#">Leases</a></li>
+            <li><a class="dropdown-item" href="#">Forms</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Resources
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+            <li><a class="dropdown-item" href="#">Reports</a></li>
+            <li><a class="dropdown-item" href="#">Downloads</a></li>
+            <li><a class="dropdown-item" href="#">Maps</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active text-success" href="#">login</a>
+        </li> 
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="govHomeContent" class="container-fluid px-0"></div>
+
+<footer class="custom-footer">
+  <div class="footer-links " >
+    <a  class="imptext" href="website-policies.html"><i class="fas fa-shield-alt"></i> Website Policies</a>
+    <a class="imptext" href="help.html"><i class="fas fa-question-circle"></i> Help</a>
+    <a class="imptext" href="Contact-Us.html"><i class="fas fa-envelope"></i> Contact Us</a>
+    <a class="imptext" href="#"><i class="fas fa-file-contract"></i> Terms & Conditions</a>
+    <a class="imptext" href="#"><i class="fas fa-comment-dots"></i> Feedback</a>
+    <a class="imptext" href="#"><i class="fas fa-user-shield"></i> Web Info Manager</a>
+    <a class="imptext" href="#"><i class="fas fa-chart-line"></i> Visitor Analytics</a>
+    <a class="imptext" href="#"><i class="fas fa-question"></i> FAQ</a>
+    <a class="imptext" href="Disclaimer.html"><i class="fas fa-exclamation-circle"></i> Disclaimer</a>
+  </div>
+
+  <div class="footer-divider"></div>
+
+  <div class="footer-text">
+    <p>Website Content Managed by <strong>Department of Mines and Geology, Government of Telangana</strong></p>
+    <p>Designed, Developed and Hosted by 
+      <a href="http://www.nic.in/" target="_blank" class="imptext">National Informatics Centre (NIC)</a>
+    </p>
+  </div>
+
+<div class="footer-logo">
+    <a href="https://www.nic.gov.in/" target="_blank">
+      <img src="./Images/nicLogo.png" alt="CMF Logo">
+    </a>
+  </div> 
+</footer>
+
+
+
+
+    </div>
+</div>    
+        
+    <script>
+        //  <!-- fontSize -->
+        function set_font_size(action) {
+            const html = document.querySelector("html");
+            let current = parseFloat(window.getComputedStyle(html).fontSize);
+            if (action === 'increase') {
+                html.style.fontSize = (current + 1) + 'px';
+            } else if (action === 'decrease') {
+                html.style.fontSize = (current - 1) + 'px';
+            } else {
+                html.style.fontSize = '16px';
+            }
+        }
+
+        // inner html
+          window.addEventListener('DOMContentLoaded', () => {
+          // loadPage('govhome.html');
+        // loadPage('earlygovhome.html');
+        loadPage('govpurplehome.html');
+    });
+
+    // function loadPage(page) {
+    //     fetch(page)
+    //         .then(response => response.text())
+    //         .then(html => {
+    //             document.getElementById('govHomeContent').innerHTML = html;
+
+
+    //             const dropdownList = [].slice.call(document.querySelectorAll('[data-bs-toggle="dropdown"]'));
+    //             dropdownList.map(el => new bootstrap.Dropdown(el));
+
+    //             const collapseList = [].slice.call(document.querySelectorAll('.collapse'));
+    //             collapseList.map(el => new bootstrap.Collapse(el, { toggle: false }));
+
+    //             const modalList = [].slice.call(document.querySelectorAll('.modal'));
+    //             modalList.map(el => new bootstrap.Modal(el));
+
+    //             const tooltipList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    //             tooltipList.map(el => new bootstrap.Tooltip(el));
+
+    //             const carouselList = [].slice.call(document.querySelectorAll('.carousel'));
+    //             carouselList.map(el => new bootstrap.Carousel(el));
+    //         })
+    //         .catch(error => console.error('Error loading page:', error));
+    // }
+
+    function loadPage(page) {
+      fetch(page)
+        .then(response => response.text())
+        .then(html => {
+          document.getElementById('govHomeContent').innerHTML = html;
+
+          // Re-bind modals (optional if Bootstrap auto-detects)
+          const modalTriggers = document.querySelectorAll('[data-bs-toggle="modal"]');
+          modalTriggers.forEach(trigger => {
+            trigger.addEventListener('click', function () {
+              const modalId = trigger.getAttribute('data-bs-target');
+              const modalElement = document.querySelector(modalId);
+              if (modalElement) {
+                const modal = bootstrap.Modal.getOrCreateInstance(modalElement);
+                modal.show();
+              }
+            });
+          });
+        })
+        .catch(err => console.error('Failed to load:', err));
+    }
+  </script>
+
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
